@@ -49,8 +49,8 @@ a.nav-link.active, a.nav-link:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
   text-align: center;
 }
 
@@ -68,6 +68,7 @@ a.nav-link.active, a.nav-link:hover {
   color: white;
   font-size: 1rem;
   padding: 16px 32px;
+  background: #000;
 }
 
 div#popOver {
